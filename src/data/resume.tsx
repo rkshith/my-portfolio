@@ -238,6 +238,5 @@ export const DATA = {
       image: "/churn.png",
       video: "",
     },
-  ],
-  hackathons: [] as any,
+  ]
 } as const;
