@@ -52,23 +52,23 @@ export const DATA = {
     { name: "Python", icon: Python },
     { name: "Typescript", icon: Typescript },
     { name: "FastAPI", icon: FastApiIcon },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Express", icon: ExpressIcon },
+    // { name: "Node.js", icon: Nodejs },
+    // { name: "Express", icon: ExpressIcon },
 
     // --- Frontend ---
     { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
+    // { name: "Next.js", icon: NextjsIconDark },
 
     // --- Databases & Storage ---
     { name: "Postgres", icon: Postgresql },
     { name: "Vector Databases", icon: VectorDBIcon },
     { name: "Redis", icon: RedisIcon },
     { name: "MongoDB", icon: MongoIcon },
-    { name: "Neo4j (Graph DB)", icon: Neo4jIcon },
+    { name: "Graph DB", icon: Neo4jIcon },
 
     // --- Infrastructure & DevOps ---
     { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
+    // { name: "Kubernetes", icon: Kubernetes },
     { name: "Linux", icon: LinuxIcon },
     { name: "CI/CD", icon: CICDIcon },
   ],
