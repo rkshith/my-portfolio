@@ -62,7 +62,7 @@ export default function ContactSection() {
                 rel="noopener noreferrer"
                 className="px-5 py-2 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition"
               >
-                Book a Call
+                Let's Talk
               </Link>
             </div>
           </div>
