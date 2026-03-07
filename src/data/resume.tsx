@@ -11,7 +11,6 @@ import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { LinuxIcon } from "@/components/ui/svgs/linuxIcon";
 import { FastApiIcon } from "@/components/ui/svgs/fastApiIcon";
 import { ExpressIcon } from "@/components/ui/svgs/expressIcon";
-import { OpenAIIcon } from "@/components/ui/svgs/openAIIcon";
 import { HuggingFaceIcon } from "@/components/ui/svgs/huggingFaceIcon";
 import { FinetuneIcon } from "@/components/ui/svgs/finetuneIcon";
 import { LLMEvalsIcon } from "@/components/ui/svgs/llmEvalsIcon";
@@ -20,13 +19,10 @@ import { RAGIcon } from "@/components/ui/svgs/ragIcon";
 import { LangChainIcon } from "@/components/ui/svgs/langChainIcon";
 import { LangGraphIcon } from "@/components/ui/svgs/langGraphIcon";
 import { AgentIcon } from "@/components/ui/svgs/agentIcon";
-import { OllamaIcon } from "@/components/ui/svgs/ollamaIcon";
 import { RedisIcon } from "@/components/ui/svgs/redisIcon";
 import { MongoIcon } from "@/components/ui/svgs/mongoIcon";
 import { Neo4jIcon } from "@/components/ui/svgs/neo4jIcon";
 import { VectorDBIcon } from "@/components/ui/svgs/vectorDBIcon";
-import { CICDIcon } from "@/components/ui/svgs/cicdIcon";
-
 export const DATA = {
   name: "Rakshith",
   initials: "DV",
@@ -48,7 +44,6 @@ export const DATA = {
     { name: "LLM Evals", icon: LLMEvalsIcon },
     { name: "Vector Embeddings", icon: EmbeddingIcon },
     { name: "Hugging Face", icon: HuggingFaceIcon },
-    { name: "Ollama", icon: OllamaIcon },
 
     // --- Languages & Backend ---
     { name: "Python", icon: Python },
@@ -72,7 +67,6 @@ export const DATA = {
     { name: "Docker", icon: Docker },
     // { name: "Kubernetes", icon: Kubernetes },
     { name: "Linux", icon: LinuxIcon },
-    { name: "CI/CD", icon: CICDIcon },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
