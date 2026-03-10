@@ -140,30 +140,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "BriefBot – AI PDF Chatbot",
-      href: "https://github.com/rakshi001/BriefBot",
-      dates: "2025",
-      active: true,
-      description:
-        "Document-aware chatbot that allows users to upload PDFs and ask questions about the content using Gemini AI.",
-      technologies: [
-        "Python",
-        "Streamlit",
-        "Gemini API",
-        "PyPDF2",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/rakshi001/BriefBot",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/briefbot.png",
-      video: "",
-    },
-
-    {
       title: "Mika Code – AI Coding CLI",
       href: "https://github.com/rakshi001/mika",
       dates: "2025",
