@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { DATA } from "@/data/resume";
 
 export default function ContactSection() {
@@ -11,19 +10,9 @@ export default function ContactSection() {
           <span className="text-background text-sm font-medium">Contact</span>
         </div>
 
-        <div className="border rounded-xl p-6 md:p-10 relative overflow-hidden">
-          {/* Background Effect */}
-          <div className="absolute inset-0 h-1/2 pointer-events-none">
-            <FlickeringGrid
-              className="h-full w-full"
-              squareSize={2}
-              gridGap={2}
-              style={{
-                maskImage: "linear-gradient(to bottom, black, transparent)",
-                WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
-              }}
-            />
-          </div>
+        <div className="border rounded-xl p-6 md:p-10 relative overflow-hidden bg-background">
+          {/* Subtle Background Gradient */}
+          <div className="absolute inset-0 h-1/2 pointer-events-none bg-gradient-to-b from-muted/50 to-transparent" />
 
           {/* Content */}
           <div className="relative flex flex-col items-center gap-6 text-center pt-4">
