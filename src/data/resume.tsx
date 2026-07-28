@@ -33,7 +33,7 @@ export const DATA = {
     "I turn ideas into working AI and full-stack products.",
   summary:
     "I’m a Computer Science Engineering student who builds end-to-end AI and full-stack products. I’m passionate about making machines learn and turning concepts into real, usable systems. I work independently, move fast, and focus on shipping complete solutions that actually work.",
-  avatarUrl: "/me.jpeg",
+  avatarUrl: "/me2.jpg",
   skills: [
     // --- AI / LLM Engineering ---
     { name: "AI Agents", icon: AgentIcon },
